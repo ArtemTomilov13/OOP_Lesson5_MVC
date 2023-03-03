@@ -1,4 +1,4 @@
-package personal.views;
+package OOP_HomeWork5.views;
 
 public enum Commands {
     NONE,

@@ -1,7 +1,7 @@
-package personal.views;
+package OOP_HomeWork5.views;
 
-import personal.controllers.UserController;
-import personal.model.User;
+import OOP_HomeWork5.controllers.UserController;
+import OOP_HomeWork5.model.User;
 
 import java.util.Scanner;
 
@@ -36,6 +36,12 @@ public class ViewUser {
                         throw new RuntimeException(e);
                     }
                     break;
+                case DELETE:
+                    String firstName1 = prompt("Имя: ");
+                    String lastName1 = prompt("Фамилия: ");
+                    String phone1 = prompt("Номер телефона: ");
+                    userController.deleteUser(new User(firstName1, lastName1, phone1));
+
             }
         }
     }

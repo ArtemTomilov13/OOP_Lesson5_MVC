@@ -1,4 +1,4 @@
-package personal.model;
+package OOP_HomeWork5.model;
 
 import java.util.List;
 

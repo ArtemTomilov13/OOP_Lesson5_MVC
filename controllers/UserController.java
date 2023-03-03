@@ -1,7 +1,7 @@
-package personal.controllers;
+package OOP_HomeWork5.controllers;
 
-import personal.model.Repository;
-import personal.model.User;
+import OOP_HomeWork5.model.Repository;
+import OOP_HomeWork5.model.User;
 
 import java.util.List;
 
@@ -14,6 +14,9 @@ public class UserController {
 
     public void saveUser(User user) {
         repository.CreateUser(user);
+    }
+    public void deleteUser(User user) {
+        repository.DeleteUser(user);
     }
 
     public User readUser(String userId) throws Exception {

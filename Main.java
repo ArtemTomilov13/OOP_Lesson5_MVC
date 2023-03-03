@@ -1,11 +1,11 @@
-package personal;
+package OOP_HomeWork5;
 
-import personal.controllers.UserController;
-import personal.model.FileOperation;
-import personal.model.FileOperationImpl;
-import personal.model.Repository;
-import personal.model.RepositoryFile;
-import personal.views.ViewUser;
+import OOP_HomeWork5.controllers.UserController;
+import OOP_HomeWork5.model.FileOperation;
+import OOP_HomeWork5.model.FileOperationImpl;
+import OOP_HomeWork5.model.Repository;
+import OOP_HomeWork5.model.RepositoryFile;
+import OOP_HomeWork5.views.ViewUser;
 
 public class Main {
     public static void main(String[] args) {
